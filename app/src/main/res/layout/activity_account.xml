@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#2d2d2d"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/add2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noplate3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/button_background3"
+        android:text="Change"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/np"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/noplate3"
+        android:layout_alignStart="@+id/noplate2"
+        android:layout_marginBottom="54dp"
+        android:fontFamily="@font/latoregular"
+        android:text="New Password"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/noplate3"
+        android:layout_below="@+id/noplate2"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/latoregular"
+        android:text="New Password Confirmation"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/noplate3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/noplate2"
+        android:layout_below="@+id/noplate2"
+        android:layout_marginTop="57dp"
+        android:backgroundTint="@color/colorFontPrimary"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/noplate2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="@color/colorFontPrimary"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowTranslucentStatus">true</item>
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+
+        <item name="colorControlNormal">@color/colorFontPrimary</item>
+        <item name="colorControlActivated">@color/colorFontPrimary</item>
+        <item name="colorControlHighlight">@color/colorFontPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/oswaldregular</item>
+    </style>
+    <style name="SpinnerTheme" parent="android:Widget.DeviceDefault.Spinner">
+        <item name="android:padding">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorFontPrimary</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+</resources>
